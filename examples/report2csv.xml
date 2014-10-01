@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orion name="Exemplo de utilização do Orion2">
+	<source_type>fixed</source_type>
+	<description>Este projeto é um exemplo de utilização do Orion2 com arquivo de dados com colunas de largura fixa.</description>
+	<column name="ne" label="Empenho" start="5" length="6" sql="" fn=""></column>
+	<column name="ano" label="Ano" start="12" length="4" sql="" fn=""></column>
+	<column name="data" label="Data" start="17" length="10" sql="" fn=""></column>
+	<column name="acesso" label="Acesso" start="29" length="3" sql="" fn=""></column>
+	<column name="desdobramento" label="Elemento de despesa" start="33" length="17" sql="" fn=""></column>
+	<column name="historico" label="Histórico" start="51" length="31" sql="" fn="noSpace"></column>
+	<column name="vlr_ne" label="Valor empenhado" start="83" length="13" sql="" fn="noSpace"></column>
+	<column name="vlr_pgo" label="Valor pago" start="97" length="16" sql="" fn="noSpace"></column>
+	<column name="saldo" label="Saldo apagar" start="114" length="16" sql="" fn="noSpace"></column>
+	<filter type="fn">
+	if(strlen($row) == 130)
+	{
+		$field = substr($row,5,6);
+		settype($field, 'integer');
+		if($field > 0)
+		{return true;}
+		else
+		{return false;}
+	}
+	else
+	{return false;}
+	</filter>
+	<csv delimiter=";">"</csv>
+	<sql table="" direct="false" host="" user="" password="" dbname=""></sql>
+	<special></special>
+	<output>csv</output>
+</orion>

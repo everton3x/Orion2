@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orion name="nome do projeto">
+	<source_type>csv</source_type>
+	<description>descrição do projeto</description>
+	<column name="coluna1" label="coluna 1" start="0" length="10" sql="col1" fn="fn1"></column>
+	<column name="coluna2" label="coluna 2" start="10" length="15" sql="col2" fn="fn2"></column>
+	<column name="coluna3" label="coluna 3" start="15" length="20" sql="col3" fn="fn3"></column>
+	<filter type="len">100</filter>
+	<!--
+	none | regex | fn | len
+	none: não checa
+	regex: executa uma pesquisa regex
+	len: tamanho da linha
+	fn: uma funçao que retorna true ou false
+	-->
+	<csv delimiter=";">"</csv>
+	<sql table="nome da tabela" direct="true" host="localhost" user="root" password="" dbname="banco de dados"></sql>
+	<special>echo "funcao especial";</special>
+</orion>

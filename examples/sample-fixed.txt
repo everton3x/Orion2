@@ -1,0 +1,28 @@
+87612826000190010120113004201118052011PREFEITURA MUNICIPAL INDEPENDENCIA                                              
+201001CAMARA MUNICIPAL DE VEREADORES                                                  
+201002GABINETE DO PREFEITO E VICE PREFEITO E DEPENDENCIAS                             
+201003SECRETARIA DE ADMINISTRACAO                                                     
+201004SECRETARIA DA FAZENDA                                                           
+201005SECRETARIA DE EDUCACAO,CULTURA,DESPORTO E TURISMO                               
+201006SECRETARIA DE OBRAS E VIACAO                                                    
+201007SECRETARIA DE SERVICOS URBANOS E TRANSITO                                       
+201008SECRETARIA DE SAUDE                                                             
+201009SECRETARIA DA ASSISTENCIA SOCIAL                                                
+201010SECRETARIA DA AGRICULTURA E ABASTECIMENTO                                       
+201011ENCARGOS ESPECIAIS                                                              
+201012FUNDO DE PREVIDENCIA DO SERVIDOR MUNICIPAL - FPSM                               
+201099RESERVA DE CONTINGENCIA                                                         
+201101CAMARA MUNICIPAL DE VEREADORES                                                  
+201102GABINETE DO PREFEITO E VICE PREFEITO E DEPENDENCIAS                             
+201103SECRETARIA DE ADMINISTRACAO                                                     
+201104SECRETARIA DA FAZENDA                                                           
+201105SECRETARIA DE EDUCACAO,CULTURA,DESPORTO E TURISMO                               
+201106SECRETARIA DE OBRAS E VIACAO                                                    
+201107SECRETARIA DE SERVICOS URBANOS E TRANSITO                                       
+201108SECRETARIA DE SAUDE                                                             
+201109SECRETARIA DA ASSISTENCIA SOCIAL                                                
+201110SECRETARIA DA AGRICULTURA E ABASTECIMENTO                                       
+201111ENCARGOS ESPECIAIS                                                              
+201112FUNDO DE PREVIDENCIA DO SERVIDOR MUNICIPAL - FPSM                               
+201199RESERVA DE CONTINGENCIA                                                         
+FINALIZADOR0000000026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orion name="Exemplo de utilização do Orion2">
+	<source_type>fixed</source_type>
+	<description>Este projeto é um exemplo de utilização do Orion2 com arquivo de dados com colunas de largura fixa.</description>
+	<column name="ano" label="Ano" start="0" length="4" sql="" fn=""></column>
+	<column name="id" label="Código" start="4" length="2" sql="" fn=""></column>
+	<column name="orgao" label="Órgão" start="6" length="85" sql="" fn="noSpace"></column>
+	<filter type="len">86</filter>
+	<csv delimiter="">"</csv>
+	<sql table="" direct="false" host="" user="" password="" dbname=""></sql>
+	<special></special>
+	<output>csv</output>
+</orion>

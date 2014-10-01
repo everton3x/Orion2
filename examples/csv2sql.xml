@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orion name="Exemplo de utilização do Orion2">
+	<source_type>csv</source_type>
+	<description>Este projeto é um exemplo de utilização do Orion2 com arquivo CSV.</description>
+	<column name="COLLATION_NAME" label="Nome" start="" length="" sql="COLLATION_NAME" fn=""></column>
+	<column name="CHARACTER_SET_NAME" label="Nome do Conjunto" start="" length="" sql="CHARACTER_SET_NAME" fn=""></column>
+	<column name="ID" label="Código" start="" length="" sql="ID" fn=""></column>
+	<column name="IS_DEFAULT" label="Padrão?" start="" length="" sql="IS_DEFAULT" fn=""></column>
+	<column name="IS_COMPILED" label="Compilado?" start="" length="" sql="" fn=""></column>
+	<column name="SORTLEN" label="Ordem" start="" length="" sql="SORT" fn=""></column>
+	<filter type="none"></filter>
+	<csv delimiter=";">"</csv>
+	<sql table="collation" direct="false" host="" user="" password="" dbname=""></sql>
+	<special>array_shift($store);</special>
+	<output>sql</output>
+</orion>
